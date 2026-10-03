@@ -30,6 +30,28 @@ button, input, textarea, select { font: inherit; }
 .header-actions .bp6-button { color: #e5edf5; }
 .header-actions .bp6-button.bp6-intent-primary { color: #fff; }
 .offline-callout { margin: 14px 22px 0; }
+.sync-callout { margin: 12px 22px 0; }
+.callout-line { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.callout-line span { flex: 1; }
+.conflict-dialog { width: min(780px, 92vw); }
+.conflict-item { padding: 14px 0; border-top: 1px solid #e5e9ef; }
+.conflict-item h4 { margin: 0 0 10px; font-size: 13px; }
+.conflict-options { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.conflict-option { padding: 12px; display: grid; gap: 8px; align-content: start; border: 1px solid #dfe5ec; border-radius: 8px; background: #f9fafb; }
+.conflict-option header { display: flex; align-items: center; gap: 8px; }
+.conflict-option small { color: #8792a2; font-size: 9px; }
+.conflict-option p { max-height: 120px; margin: 0; overflow-y: auto; font-size: 11px; line-height: 1.6; word-break: break-word; }
+.compare-side { display: grid; gap: 14px; align-content: start; }
+.branch-panel { padding: 19px; border: 1px solid var(--line); border-radius: 10px; }
+.branch-item { padding: 11px 0; border-top: 1px solid #e7ebf0; }
+.branch-item header { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.branch-item b { color: var(--blue); font: 600 11px "IBM Plex Mono", monospace; }
+.branch-item p { margin: 4px 0; color: #7b8797; font-size: 10px; }
+.branch-actions { display: flex; gap: 4px; margin-top: 6px; }
+.stale-note { margin-top: 10px; padding: 10px; display: grid; grid-template-columns: 18px 1fr; gap: 7px; border: 1px solid #f0dfc2; border-radius: 8px; background: #fdf6ec; }
+.stale-note strong, .stale-note small { display: block; }
+.stale-note strong { font-size: 10px; }
+.stale-note small { margin-top: 2px; color: #8a6d3b; font-size: 9px; }
 .process-banner { margin: 20px 22px 0; display: grid; grid-template-columns: minmax(360px, 1.4fr) .8fr .65fr; gap: 24px; padding: 24px 26px; color: #fff; border-radius: 14px; background: radial-gradient(circle at 80% -30%, rgba(45,114,210,.45), transparent 35%), linear-gradient(110deg, #1c2b3a, #263e52); box-shadow: 0 12px 28px rgba(27,46,64,.14); }
 .code-line { display: flex; align-items: center; gap: 10px; color: #a8c8df; font: 600 11px "IBM Plex Mono", monospace; letter-spacing: .1em; }
 .banner-main h2 { margin: 9px 0 7px; font-size: clamp(22px, 2.6vw, 32px); line-height: 1.15; }
